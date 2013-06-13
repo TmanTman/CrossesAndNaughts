@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick"
+        android:text="@string/button_text" />
+
+	<FrameLayout
+    	android:id="@+id/image"
+	    android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">	       	        	    
+   	</FrameLayout>
+
+</LinearLayout>
